@@ -1,0 +1,164 @@
+Metric,Value
+address1,Greggs House
+address2,Quorum Business Park
+city,Newcastle upon Tyne
+zip,NE12 8BU
+country,United Kingdom
+phone,44 80 8147 3447
+website,https://corporate.greggs.co.uk
+industry,Restaurants
+industryKey,restaurants
+industryDisp,Restaurants
+sector,Consumer Cyclical
+sectorKey,consumer-cyclical
+sectorDisp,Consumer Cyclical
+longBusinessSummary,"Greggs plc operates as a food-on-the-go retailer in the United Kingdom. It offers a range of fresh bakery products, sandwiches, and drinks, as well as ready to drink canned products. The company is also involved in the property holding, non-trading, and trustee businesses. It sells products to franchise and wholesale partners for sale in their own outlets. The company operates through its own shops and delivery channels. Greggs plc was founded in 1939 and is headquartered in Newcastle upon Tyne, the United Kingdom."
+fullTimeEmployees,33146
+companyOfficers,"[{'maxAge': 1, 'name': 'Ms. Roisin Helen Currie', 'age': 53, 'title': 'CEO & Executive Director', 'yearBorn': 1971, 'fiscalYear': 2024, 'totalPay': 1140698, 'exercisedValue': 891504, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Richard John Hutton F.C.A.', 'age': 56, 'title': 'CFO & Executive Director', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 747364, 'exercisedValue': 1048898, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sarah  Dickson', 'title': 'General Counsel & Company Secretary', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Emma  Walton', 'title': 'People Director & Head of People', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Raymond  Reynolds', 'age': 64, 'title': 'Property & Business Development Director', 'yearBorn': 1960, 'fiscalYear': 2024, 'totalPay': 352002, 'exercisedValue': 436842, 'unexercisedValue': 1254945}, {'maxAge': 1, 'name': 'Malcolm  Copland', 'title': 'Commercial Director', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+auditRisk,8
+boardRisk,2
+compensationRisk,4
+shareHolderRightsRisk,1
+overallRisk,2
+governanceEpochDate,1748736000
+compensationAsOfEpochDate,1735603200
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,1700.0
+open,1711.0
+dayLow,1698.0
+dayHigh,1746.0
+regularMarketPreviousClose,1700.0
+regularMarketOpen,1711.0
+regularMarketDayLow,1698.0
+regularMarketDayHigh,1746.0
+dividendRate,0.69
+dividendYield,3.6
+exDividendDate,1746057600
+payoutRatio,0.4345
+fiveYearAvgDividendYield,2.34
+beta,1.427
+trailingPE,11.48
+forwardPE,0.11816373
+volume,543824
+regularMarketVolume,543824
+averageVolume,459634
+averageVolume10days,866171
+averageDailyVolume10Day,866171
+bid,1733.0
+ask,1735.0
+bidSize,0
+askSize,0
+marketCap,1753323136
+fiftyTwoWeekLow,1645.0
+fiftyTwoWeekHigh,3250.0
+priceToSalesTrailing12Months,0.8703947
+fiftyDayAverage,1942.58
+twoHundredDayAverage,2258.32
+trailingAnnualDividendRate,0.69
+trailingAnnualDividendYield,0.00040588234
+currency,GBp
+tradeable,False
+enterpriseValue,2237203456
+profitMargins,0.07615
+floatShares,99789464
+sharesOutstanding,101819000
+heldPercentInsiders,0.05375
+heldPercentInstitutions,0.55382
+impliedSharesOutstanding,101819000
+bookValue,5.622
+priceToBook,306.2967
+lastFiscalYearEnd,1735344000
+nextFiscalYearEnd,1766880000
+mostRecentQuarter,1735344000
+earningsQuarterlyGrowth,0.196
+netIncomeToCommon,153400000
+trailingEps,1.5
+forwardEps,145.73
+lastSplitFactor,10:1
+lastSplitDate,1242604800
+enterpriseToRevenue,1.111
+enterpriseToEbitda,8.068
+52WeekChange,-0.4062069
+SandP52WeekChange,0.12677538
+lastDividendValue,0.5
+lastDividendDate,1746057600
+quoteType,EQUITY
+currentPrice,1722.0
+targetHighPrice,3250.0
+targetLowPrice,1330.0
+targetMeanPrice,2312.545
+targetMedianPrice,2440.0
+recommendationKey,none
+numberOfAnalystOpinions,11
+totalCash,125300000
+totalCashPerShare,1.235
+ebitda,277300000
+totalDebt,415100000
+quickRatio,0.561
+currentRatio,0.783
+totalRevenue,2014400000
+debtToEquity,72.761
+revenuePerShare,19.793
+returnOnAssets,0.102419995
+returnOnEquity,0.27855
+grossProfits,1243600000
+freeCashflow,41750000
+operatingCashflow,310900000
+earningsGrowth,0.194
+revenueGrowth,0.091
+grossMargins,0.61736
+ebitdaMargins,0.13766
+operatingMargins,0.11852
+financialCurrency,GBP
+symbol,GRG.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,583743600000
+corporateActions,[]
+regularMarketTime,1751643320
+exchange,LSE
+messageBoardId,finmb_877746
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+regularMarketChangePercent,1.2941176
+regularMarketPrice,1722.0
+marketState,CLOSED
+shortName,GREGGS PLC ORD 2P
+longName,Greggs plc
+regularMarketChange,22.0
+regularMarketDayRange,1698.0 - 1746.0
+fullExchangeName,LSE
+averageDailyVolume3Month,459634
+fiftyTwoWeekLowChange,77.0
+fiftyTwoWeekLowChangePercent,0.04680851
+fiftyTwoWeekRange,1645.0 - 3250.0
+fiftyTwoWeekHighChange,-1528.0
+fiftyTwoWeekHighChangePercent,-0.47015384
+fiftyTwoWeekChangePercent,-40.62069
+earningsTimestampStart,1753682400
+earningsTimestampEnd,1754028000
+earningsCallTimestampStart,1741085940
+earningsCallTimestampEnd,1741085940
+isEarningsDateEstimate,True
+epsTrailingTwelveMonths,1.5
+epsForward,145.73
+epsCurrentYear,1.35506
+priceEpsCurrentYear,1270.7925
+fiftyDayAverageChange,-220.57996
+fiftyDayAverageChangePercent,-0.11355
+twoHundredDayAverageChange,-536.32007
+twoHundredDayAverageChangePercent,-0.2374863
+sourceInterval,15
+exchangeDataDelayedBy,15
+cryptoTradeable,False
+trailingPegRatio,

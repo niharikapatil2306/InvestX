@@ -1,0 +1,100 @@
+Metric,Value
+phone,+65 6 308 3000
+longBusinessSummary,The index has the objective of providing exposure to the price of carbon as measured by the return of futures contracts on carbon emissions credits from two of the world’s major emissions-related mechanisms. The components currently included in the index are futures contracts that trade on the ICE Futures Europe exchange.
+companyOfficers,[]
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,28.2696
+open,28.4724
+dayLow,28.461
+dayHigh,28.525
+regularMarketPreviousClose,28.2696
+regularMarketOpen,28.4724
+regularMarketDayLow,28.461
+regularMarketDayHigh,28.525
+trailingPE,3.0537555
+volume,305
+regularMarketVolume,305
+averageVolume,3549
+averageVolume10days,830
+averageDailyVolume10Day,830
+bid,21.62
+ask,30.0
+bidSize,2
+askSize,2
+yield,0.0
+totalAssets,20309600
+fiftyTwoWeekLow,23.825
+fiftyTwoWeekHigh,32.88
+fiftyDayAverage,28.05878
+twoHundredDayAverage,27.554815
+navPrice,29.2397
+currency,USD
+tradeable,False
+category,Commodities Focused
+ytdReturn,-2.314
+beta3Year,0.46
+fundFamily,iPath
+fundInceptionDate,1568073600
+legalType,Exchange Traded Fund
+threeYearAverageReturn,-0.026419498
+fiveYearAverageReturn,0.26651528
+quoteType,ETF
+symbol,GRN
+language,en-US
+region,US
+typeDisp,ETF
+quoteSourceName,Delayed Quote
+triggerable,True
+customPriceAlertConfidence,HIGH
+regularMarketChangePercent,0.677054
+regularMarketPrice,28.461
+hasPrePostMarketData,True
+firstTradeDateMilliseconds,1568813400000
+regularMarketChange,0.191401
+regularMarketDayRange,28.461 - 28.525
+fullExchangeName,NYSEArca
+financialCurrency,GBP
+averageDailyVolume3Month,3549
+fiftyTwoWeekLowChange,4.6359997
+fiftyTwoWeekLowChangePercent,0.1945855
+fiftyTwoWeekRange,23.825 - 32.88
+fiftyTwoWeekHighChange,-4.4190006
+fiftyTwoWeekHighChangePercent,-0.13439782
+fiftyTwoWeekChangePercent,4.8094273
+earningsTimestamp,1753768800
+earningsTimestampStart,1753768800
+earningsTimestampEnd,1753768800
+earningsCallTimestampStart,1739439000
+earningsCallTimestampEnd,1739439000
+isEarningsDateEstimate,False
+dividendYield,0.0
+trailingThreeMonthReturns,-0.08906
+trailingThreeMonthNavReturns,-0.08906
+netAssets,20309600.0
+epsTrailingTwelveMonths,9.32
+bookValue,91.7
+fiftyDayAverageChange,0.40221977
+fiftyDayAverageChangePercent,0.014334898
+twoHundredDayAverageChange,0.90618515
+twoHundredDayAverageChangePercent,0.032886636
+netExpenseRatio,0.75
+priceToBook,0.3103708
+sourceInterval,15
+exchangeDataDelayedBy,0
+cryptoTradeable,False
+shortName,iPath Series B Carbon Exchange-
+longName,iPath Series B Carbon ETN
+corporateActions,[]
+regularMarketTime,1751557779
+exchange,PCX
+messageBoardId,finmb_46329357
+exchangeTimezoneName,America/New_York
+exchangeTimezoneShortName,EDT
+gmtOffSetMilliseconds,-14400000
+market,us_market
+esgPopulated,False
+marketState,CLOSED
+displayName,Barclays Bank
+trailingPegRatio,

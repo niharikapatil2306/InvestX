@@ -1,0 +1,174 @@
+Metric,Value
+address1,6 St James’s Square
+city,London
+zip,SW1Y 4AD
+country,United Kingdom
+phone,44 20 7781 2000
+website,https://www.riotinto.com
+industry,Other Industrial Metals & Mining
+industryKey,other-industrial-metals-mining
+industryDisp,Other Industrial Metals & Mining
+sector,Basic Materials
+sectorKey,basic-materials
+sectorDisp,Basic Materials
+longBusinessSummary,"Rio Tinto Group engages in exploring, mining, and processing mineral resources worldwide. The company operates through Iron Ore, Aluminium, Copper, and Minerals Segments. The Iron Ore segment engages in the iron ore mining, and salt and gypsum production in Western Australia. The Aluminum segment is involved in bauxite mining; and alumina refining, smelting, and recycling. The Copper segment engages in mining and refining of copper, gold, silver, molybdenum, and other by-products and exploration activities. The Minerals segment is involved in mining and processing of borates, titanium dioxide feedstock, and iron concentrate and pellets; diamond mining, sorting, and marketing; and development projects for battery materials, such as lithium. It also owns and operates open pit and underground mines; and refineries, smelters, processing plants and power, and shipping facilities. The company was founded in 1873 and is headquartered in London, the United Kingdom."
+fullTimeEmployees,60000
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Jakob  Stausholm M.S.', 'age': 56, 'title': 'CEO & Executive Director', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 2863000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Peter Lloyd Cunningham B.A.', 'age': 58, 'title': 'CFO & Director', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 1621000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Bold  Baatar', 'age': 50, 'title': 'Chief Commercial Officer', 'yearBorn': 1974, 'fiscalYear': 2024, 'totalPay': 2923000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Simon C. Trott BSc(Hon), GAICD, GradDipFin', 'age': 49, 'title': 'Chief Executive of Iron Ore', 'yearBorn': 1975, 'fiscalYear': 2024, 'totalPay': 1458000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sinead  Kaufman', 'title': 'Chief Executive of Minerals', 'fiscalYear': 2024, 'totalPay': 1327000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jerome X. Pecresse', 'age': 57, 'title': 'Chief Executive of Aluminium, President & CEO of Renewable Energy', 'yearBorn': 1967, 'fiscalYear': 2024, 'totalPay': 1646000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Katie  Jackson', 'title': 'Chief Executive of Copper Business', 'fiscalYear': 2024, 'totalPay': 1213000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Davies', 'title': 'Chief Technical Officer', 'fiscalYear': 2024, 'totalPay': 1462000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nigel Ian Steward', 'title': 'Head of Grp Tech Processing, Asset Mgmt, Energy, Climate Change, R&D & Tech Strtgy & Chief Scientist', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Menno Gerard Cornelis Sanderse', 'title': 'Head of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+compensationAsOfEpochDate,1735603200
+irWebsite,http://www.riotinto.com/investors-87.aspx
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,60.18
+open,58.925
+dayLow,58.715
+dayHigh,59.32
+regularMarketPreviousClose,60.18
+regularMarketOpen,58.925
+regularMarketDayLow,58.715
+regularMarketDayHigh,59.32
+dividendRate,4.02
+dividendYield,6.89
+exDividendDate,1741305600
+payoutRatio,0.61509997
+fiveYearAvgDividendYield,7.76
+beta,0.633
+trailingPE,8.347949
+forwardPE,8.653958
+volume,4398882
+regularMarketVolume,4398882
+averageVolume,3334149
+averageVolume10days,4215880
+averageDailyVolume10Day,4215880
+bid,58.93
+ask,59.11
+bidSize,2
+askSize,3
+marketCap,95267135488
+fiftyTwoWeekLow,51.67
+fiftyTwoWeekHigh,72.08
+priceToSalesTrailing12Months,1.7754507
+fiftyDayAverage,59.6604
+twoHundredDayAverage,61.75085
+trailingAnnualDividendRate,4.02
+trailingAnnualDividendYield,0.0667996
+currency,USD
+tradeable,False
+enterpriseValue,102785597440
+profitMargins,0.21529
+floatShares,1239359399
+sharesOutstanding,1253750016
+sharesShort,9735042
+sharesShortPriorMonth,7870022
+sharesShortPreviousMonthDate,1747267200
+dateShortInterest,1749772800
+sharesPercentSharesOut,0.006
+heldPercentInsiders,3.0000001e-05
+heldPercentInstitutions,0.10484
+shortRatio,2.95
+shortPercentOfFloat,0.0068
+impliedSharesOutstanding,1657600000
+bookValue,34.028
+priceToBook,1.734454
+lastFiscalYearEnd,1735603200
+nextFiscalYearEnd,1767139200
+mostRecentQuarter,1735603200
+earningsQuarterlyGrowth,0.163
+netIncomeToCommon,11552000000
+trailingEps,7.07
+forwardEps,6.82
+lastSplitFactor,4:1
+lastSplitDate,1272585600
+enterpriseToRevenue,1.916
+enterpriseToEbitda,5.394
+52WeekChange,-0.12133396
+SandP52WeekChange,0.12677538
+lastDividendValue,2.25
+lastDividendDate,1741305600
+quoteType,EQUITY
+currentPrice,59.02
+targetHighPrice,93.0
+targetLowPrice,63.0
+targetMeanPrice,75.93833
+targetMedianPrice,74.25
+recommendationMean,1.57143
+recommendationKey,buy
+numberOfAnalystOpinions,6
+totalCash,8865000448
+totalCashPerShare,5.46
+ebitda,19057000448
+totalDebt,14222000128
+quickRatio,1.055
+currentRatio,1.628
+totalRevenue,53658001408
+debtToEquity,24.535
+revenuePerShare,33.059
+returnOnAssets,0.084750004
+returnOnEquity,0.20251
+grossProfits,16176000000
+freeCashflow,5080249856
+operatingCashflow,15598999552
+earningsGrowth,0.161
+revenueGrowth,-0.019
+grossMargins,0.30146
+ebitdaMargins,0.35516
+operatingMargins,0.23354
+financialCurrency,USD
+symbol,RIO
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Nasdaq Real Time Price
+triggerable,True
+customPriceAlertConfidence,HIGH
+priceEpsCurrentYear,9.480104
+fiftyDayAverageChange,-0.64039993
+fiftyDayAverageChangePercent,-0.010734087
+twoHundredDayAverageChange,-2.7308502
+twoHundredDayAverageChangePercent,-0.044223685
+sourceInterval,15
+exchangeDataDelayedBy,0
+averageAnalystRating,1.6 - Buy
+cryptoTradeable,False
+corporateActions,[]
+postMarketTime,1751576393
+regularMarketTime,1751562002
+exchange,NYQ
+messageBoardId,finmb_299199
+exchangeTimezoneName,America/New_York
+exchangeTimezoneShortName,EDT
+gmtOffSetMilliseconds,-14400000
+market,us_market
+esgPopulated,False
+regularMarketChangePercent,-1.92755
+regularMarketPrice,59.02
+hasPrePostMarketData,True
+firstTradeDateMilliseconds,646579800000
+postMarketChangePercent,-0.0254141
+postMarketPrice,59.005
+postMarketChange,-0.0149994
+regularMarketChange,-1.16
+regularMarketDayRange,58.715 - 59.32
+fullExchangeName,NYSE
+averageDailyVolume3Month,3334149
+fiftyTwoWeekLowChange,7.3500023
+fiftyTwoWeekLowChangePercent,0.14224894
+fiftyTwoWeekRange,51.67 - 72.08
+fiftyTwoWeekHighChange,-13.060001
+fiftyTwoWeekHighChangePercent,-0.18118758
+fiftyTwoWeekChangePercent,-12.133396
+dividendDate,1744848000
+earningsTimestamp,1753887600
+earningsTimestampStart,1753887600
+earningsTimestampEnd,1753887600
+earningsCallTimestampStart,1739995200
+earningsCallTimestampEnd,1739995200
+isEarningsDateEstimate,False
+epsTrailingTwelveMonths,7.07
+epsForward,6.82
+epsCurrentYear,6.22567
+shortName,Rio Tinto Plc
+longName,Rio Tinto Group
+marketState,CLOSED
+displayName,Rio Tinto
+trailingPegRatio,

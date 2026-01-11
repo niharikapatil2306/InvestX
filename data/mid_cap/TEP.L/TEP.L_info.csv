@@ -1,0 +1,164 @@
+Metric,Value
+address1,Network HQ
+address2,508 Edgware Road The Hyde
+city,London
+zip,NW9 5AB
+country,United Kingdom
+phone,44 20 8955 5000
+website,https://www.telecomplus.co.uk
+industry,Utilities - Diversified
+industryKey,utilities-diversified
+industryDisp,Utilities - Diversified
+sector,Utilities
+sectorKey,utilities
+sectorDisp,Utilities
+longBusinessSummary,"Telecom Plus Plc engages in the provision of utility services in the United Kingdom. It is involved in the resale of various services, including gas, electricity, fixed line telephony, mobile telephony, broadband, and insurance, as well as bill protection and life cover, home insurance and boiler cover, and cashback card services under the Utility Warehouse and TML brands. The company was incorporated in 1996 and is based in London, the United Kingdom."
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Stuart  Burnett', 'age': 42, 'title': 'CEO & Director', 'yearBorn': 1982, 'fiscalYear': 2024, 'totalPay': 2589000, 'exercisedValue': 0, 'unexercisedValue': 314335}, {'maxAge': 1, 'name': 'Mr. Nicholas Jakub Schoenfeld B.A, M.B.A', 'age': 54, 'title': 'CFO & Director', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 1659000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rob  Harris', 'title': 'Chief Operating Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Mark  Regensberg', 'title': 'Chief Technology Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Sheryl  Jermyn', 'title': 'Legal & Compliance Director', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Libby  Townsend', 'title': 'Chief People Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Walter', 'title': 'Chief Commercial Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David William Baxter ACA', 'age': 49, 'title': 'Head of Finance & Company Secretary', 'yearBorn': 1975, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+auditRisk,9
+boardRisk,6
+compensationRisk,8
+shareHolderRightsRisk,1
+overallRisk,7
+governanceEpochDate,1748736000
+compensationAsOfEpochDate,1735603200
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,1992.0
+open,1996.506
+dayLow,1978.0
+dayHigh,2031.837
+regularMarketPreviousClose,1992.0
+regularMarketOpen,1996.506
+regularMarketDayLow,1978.0
+regularMarketDayHigh,2031.837
+dividendRate,0.94
+dividendYield,4.87
+exDividendDate,1753315200
+payoutRatio,0.8833
+fiveYearAvgDividendYield,4.28
+beta,0.527
+trailingPE,21.31579
+forwardPE,0.15258834
+volume,119997
+regularMarketVolume,119997
+averageVolume,137346
+averageVolume10days,155289
+averageDailyVolume10Day,155289
+bid,2020.0
+ask,2030.0
+bidSize,0
+askSize,0
+marketCap,1612017536
+fiftyTwoWeekLow,1580.0
+fiftyTwoWeekHigh,2100.0
+priceToSalesTrailing12Months,0.87697536
+fiftyDayAverage,1991.54
+twoHundredDayAverage,1794.665
+trailingAnnualDividendRate,0.94
+trailingAnnualDividendYield,0.00047188756
+currency,GBp
+tradeable,False
+enterpriseValue,1645970304
+profitMargins,0.0414
+floatShares,72899383
+sharesOutstanding,79605800
+heldPercentInsiders,0.09506
+heldPercentInstitutions,0.66549003
+impliedSharesOutstanding,79605800
+bookValue,3.176
+priceToBook,637.5944
+lastFiscalYearEnd,1743379200
+nextFiscalYearEnd,1774915200
+mostRecentQuarter,1743379200
+earningsQuarterlyGrowth,0.017
+netIncomeToCommon,76097000
+trailingEps,0.95
+forwardEps,132.71
+enterpriseToRevenue,0.895
+enterpriseToEbitda,11.376
+52WeekChange,0.125
+SandP52WeekChange,0.12677538
+lastDividendValue,0.57
+lastDividendDate,1753315200
+quoteType,EQUITY
+currentPrice,2025.0
+targetHighPrice,2600.0
+targetLowPrice,2435.0
+targetMeanPrice,2553.75
+targetMedianPrice,2590.0
+recommendationMean,1.0
+recommendationKey,strong_buy
+numberOfAnalystOpinions,4
+totalCash,79020000
+totalCashPerShare,0.998
+ebitda,144686000
+totalDebt,194884992
+quickRatio,1.515
+currentRatio,1.731
+totalRevenue,1838156032
+debtToEquity,77.486
+revenuePerShare,23.267
+returnOnAssets,0.10953
+returnOnEquity,0.31436002
+grossProfits,358068000
+freeCashflow,60027624
+operatingCashflow,108748000
+earningsGrowth,0.006
+revenueGrowth,-0.013
+grossMargins,0.19479999
+ebitdaMargins,0.07871
+operatingMargins,0.06798
+financialCurrency,GBP
+symbol,TEP.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+shortName,TELECOM PLUS PLC ORD 5P
+longName,Telecom Plus Plc
+corporateActions,"[{'header': 'Dividend', 'message': 'TEP.L announced a cash dividend of 0.57 with an ex-date of Jul. 24, 2025', 'meta': {'eventType': 'DIVIDEND', 'dateEpochMs': 1753311600000, 'amount': '0.57'}}]"
+regularMarketTime,1751643322
+marketState,CLOSED
+regularMarketChangePercent,1.6566266
+regularMarketPrice,2025.0
+regularMarketChange,33.0
+regularMarketDayRange,1978.0 - 2031.837
+fullExchangeName,LSE
+averageDailyVolume3Month,137346
+exchange,LSE
+messageBoardId,finmb_513790
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+fiftyTwoWeekLowChange,445.0
+fiftyTwoWeekLowChangePercent,0.28164557
+fiftyTwoWeekRange,1580.0 - 2100.0
+fiftyTwoWeekHighChange,-75.0
+fiftyTwoWeekHighChangePercent,-0.035714287
+fiftyTwoWeekChangePercent,12.5
+earningsTimestamp,1750762740
+earningsTimestampStart,1750762740
+earningsTimestampEnd,1750762740
+earningsCallTimestampStart,1750752000
+earningsCallTimestampEnd,1750752000
+isEarningsDateEstimate,False
+epsTrailingTwelveMonths,0.95
+epsForward,132.71
+epsCurrentYear,1.26967
+priceEpsCurrentYear,1594.9026
+fiftyDayAverageChange,33.45996
+fiftyDayAverageChangePercent,0.016801048
+twoHundredDayAverageChange,230.33496
+twoHundredDayAverageChangePercent,0.12834427
+sourceInterval,15
+exchangeDataDelayedBy,15
+averageAnalystRating,1.0 - Strong Buy
+cryptoTradeable,False
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,964594800000
+trailingPegRatio,

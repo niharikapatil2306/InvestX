@@ -1,0 +1,157 @@
+Metric,Value
+address1,Brunel Building
+address2,2 Canalside Walk
+city,London
+zip,W2 1DG
+country,United Kingdom
+phone,44 20 3800 0120
+website,https://www.alphagroup.com
+industry,Capital Markets
+industryKey,capital-markets
+industryDisp,Capital Markets
+sector,Financial Services
+sectorKey,financial-services
+sectorDisp,Financial Services
+longBusinessSummary,"Alpha Group International plc provides cash and risk management solutions in the United Kingdom, Europe, Canada, and internationally. It operates in three segments: Corporate, Private Capital Markets, and Cobase. The corporate segment offers risk management to corporate clients for hedging commercial foreign exchange exposures. The Private Capital Markets segment includes accounts and payments simplified formation and management of currency accounts, and multi-currency payments; currency management strategic advisory and execution services for managing currency exposures; and fund finance streamlined debt-sourcing and advisory for structuring of facilities. The Cobase segment provides cloud-based bank connectivity technology, which helps corporates to manage their banking relationships and transactions. The company's solutions include accounts, foreign exchange, debt-sourcing, deposit solutions, multi-bank connectivity technology, and expert advice on managing financial market risks. The company was formerly known as Alpha FX Group PLC and changed its name to Alpha Group International plc in December 2022. Alpha Group International plc was founded in 2009 and is based in London, the United Kingdom."
+fullTimeEmployees,545
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Clive Ian Kahn ACA', 'age': 67, 'title': 'CEO & Executive Director', 'yearBorn': 1957, 'fiscalYear': 2024, 'totalPay': 153000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Timothy  Powell', 'age': 48, 'title': 'CFO & Executive Director', 'yearBorn': 1976, 'fiscalYear': 2024, 'totalPay': 845000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Timothy Nigel Butters', 'age': 42, 'title': 'Chief Risk Officer & Executive Director', 'yearBorn': 1982, 'fiscalYear': 2024, 'totalPay': 355000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Samantha  Bartlett', 'title': 'Head of Finance', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Melanie  Beattie', 'title': 'Head of Strategic Alliances', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nick  Maton', 'title': 'Managing Director of Luxembourg', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Sam  Marsh', 'title': 'Chief Executive Officer of Private Markets', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alex  Howorth', 'title': 'Chief Executive Officer of Corporate', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. David  Christie', 'title': 'Chief Operating Officer of Private Markets', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jorge  Schafraad', 'title': 'Chief Executive Officer of Cobase', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+auditRisk,3
+boardRisk,5
+compensationRisk,7
+shareHolderRightsRisk,1
+overallRisk,5
+governanceEpochDate,1748736000
+compensationAsOfEpochDate,1735603200
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,3185.0
+open,3160.0
+dayLow,3160.0
+dayHigh,3313.4
+regularMarketPreviousClose,3185.0
+regularMarketOpen,3160.0
+regularMarketDayLow,3160.0
+regularMarketDayHigh,3313.4
+dividendRate,0.18
+dividendYield,0.57
+exDividendDate,1745452800
+payoutRatio,0.0779
+beta,1.24
+trailingPE,15.518869
+forwardPE,0.35729802
+volume,1192163
+regularMarketVolume,1192163
+averageVolume,215805
+averageVolume10days,270667
+averageDailyVolume10Day,270667
+bid,3300.0
+ask,3310.0
+marketCap,1391821312
+fiftyTwoWeekLow,1975.0
+fiftyTwoWeekHigh,3313.4
+priceToSalesTrailing12Months,6.300599
+fiftyDayAverage,3040.5
+twoHundredDayAverage,2529.5
+trailingAnnualDividendRate,0.182
+trailingAnnualDividendYield,5.7142857e-05
+currency,GBp
+tradeable,False
+enterpriseValue,1132235520
+profitMargins,0.42109
+floatShares,35472472
+sharesOutstanding,42304600
+heldPercentInsiders,0.17763
+heldPercentInstitutions,0.85586
+impliedSharesOutstanding,43328100
+bookValue,6.507
+priceToBook,505.60934
+lastFiscalYearEnd,1735603200
+nextFiscalYearEnd,1767139200
+mostRecentQuarter,1735603200
+earningsQuarterlyGrowth,-0.022
+netIncomeToCommon,93019000
+trailingEps,2.12
+forwardEps,92.08
+enterpriseToRevenue,5.125
+enterpriseToEbitda,9.444
+52WeekChange,0.37083328
+SandP52WeekChange,0.12677538
+lastDividendValue,0.14
+lastDividendDate,1745452800
+quoteType,EQUITY
+currentPrice,3290.0
+targetHighPrice,3500.0
+targetLowPrice,3500.0
+targetMeanPrice,3500.0
+targetMedianPrice,3500.0
+recommendationKey,none
+numberOfAnalystOpinions,1
+totalCash,252468000
+totalCashPerShare,5.907
+ebitda,119884000
+totalDebt,22507000
+quickRatio,1.718
+currentRatio,2.68
+totalRevenue,220903008
+debtToEquity,8.067
+revenuePerShare,5.123
+returnOnAssets,0.17252001
+returnOnEquity,0.36905998
+grossProfits,188720000
+freeCashflow,74957504
+operatingCashflow,100530000
+earningsGrowth,-0.034
+revenueGrowth,0.186
+grossMargins,0.85431
+ebitdaMargins,0.5427
+operatingMargins,0.52125
+financialCurrency,GBP
+symbol,ALPH.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+cryptoTradeable,False
+shortName,ALPHA GROUP INTERNATIONAL PLC O
+longName,Alpha Group International plc
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,1491548400000
+regularMarketChange,105.0
+regularMarketDayRange,3160.0 - 3313.4
+fullExchangeName,LSE
+averageDailyVolume3Month,215805
+fiftyTwoWeekLowChange,1315.0
+fiftyTwoWeekLowChangePercent,0.6658228
+fiftyTwoWeekRange,1975.0 - 3313.4
+fiftyTwoWeekHighChange,-23.399902
+fiftyTwoWeekHighChangePercent,-0.007062203
+fiftyTwoWeekChangePercent,37.08333
+earningsTimestampStart,1756798200
+earningsTimestampEnd,1757316600
+isEarningsDateEstimate,True
+epsTrailingTwelveMonths,2.12
+epsForward,92.08
+epsCurrentYear,1.018
+priceEpsCurrentYear,3231.8271
+fiftyDayAverageChange,249.5
+fiftyDayAverageChangePercent,0.08205887
+twoHundredDayAverageChange,760.5
+twoHundredDayAverageChangePercent,0.3006523
+sourceInterval,15
+exchangeDataDelayedBy,15
+marketState,CLOSED
+corporateActions,[]
+regularMarketTime,1751646525
+exchange,LSE
+messageBoardId,finmb_426520456
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+regularMarketChangePercent,3.2967036
+regularMarketPrice,3290.0
+trailingPegRatio,

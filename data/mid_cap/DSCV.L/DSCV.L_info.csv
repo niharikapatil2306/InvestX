@@ -1,0 +1,164 @@
+Metric,Value
+address1,2 Chancellor Court
+address2,Occam Road Surrey Research Park
+city,Guildford
+zip,GU2 7AH
+country,United Kingdom
+phone,44 1483 544 500
+fax,44 1483 544 550
+website,https://www.discoverieplc.com
+industry,Electronic Components
+industryKey,electronic-components
+industryDisp,Electronic Components
+sector,Technology
+sectorKey,technology
+sectorDisp,Technology
+longBusinessSummary,"discoverIE Group plc designs, manufactures, and supplies specialist electronic components for industrial applications in the United Kingdom, Europe, North America, Asia, and internationally. It operates in two segments: Magnetics & Controls; and Sensing & Connectivity. The company offers magnetic and power components, embedded computing and interface controls, and sensing and connectivity components for industrial applications. The Magnetics & Controls segment offers Electronics for X-ray detection, signal conditioning, power conversion and switching, monitoring, and remote control, communication and interface control. The Sensing & Connectivity segment offers electronics for wireless transmission, fibre optic and cable connection, electromagnetic shielding, and sensing components for measuring movement, temperature, pressure, position, force, and load. It serves customers in the renewable energy, transportation, security, medical, industrial and connectivity, and other markets. The company was formerly known as Acal plc and changed its name to discoverIE Group plc in November 2017. discoverIE Group plc was incorporated in 1986 and is headquartered in Guildford, the United Kingdom."
+fullTimeEmployees,4497
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Nicholas J. Jefferies', 'age': 58, 'title': 'Group Chief Executive & Executive Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 1027000, 'exercisedValue': 0, 'unexercisedValue': 3935138}, {'maxAge': 1, 'name': 'Mr. Simon M. Gibbins ACA', 'age': 58, 'title': 'Group Finance Director & Executive Director', 'yearBorn': 1966, 'fiscalYear': 2025, 'totalPay': 623000, 'exercisedValue': 0, 'unexercisedValue': 1971668}, {'maxAge': 1, 'name': 'Ms. Lili  Huang', 'title': 'Head of Investor Relations & Group Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Gregory  Davidson-Shrine', 'title': 'Group General Counsel & Company Secretary', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jeremy J. Morcom', 'title': 'Group Head of Corporate Development', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Kirsty  Garrison', 'title': 'Head of Tax', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Priyanka  Gupta', 'title': 'Head of Acquisitions', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alistair  King', 'title': 'Head of Risk & Internal Audit', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Kamran  Ahmad', 'title': 'Group Financial Controller', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+auditRisk,6
+boardRisk,7
+compensationRisk,1
+shareHolderRightsRisk,1
+overallRisk,4
+governanceEpochDate,1748736000
+compensationAsOfEpochDate,1767139200
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,689.0
+open,719.0
+dayLow,682.0
+dayHigh,719.0
+regularMarketPreviousClose,689.0
+regularMarketOpen,719.0
+regularMarketDayLow,682.0
+regularMarketDayHigh,719.0
+dividendRate,0.13
+dividendYield,1.92
+exDividendDate,1750896000
+payoutRatio,0.48599997
+fiveYearAvgDividendYield,1.34
+beta,1.079
+trailingPE,28.0
+forwardPE,0.17579105
+volume,269503
+regularMarketVolume,269503
+averageVolume,204851
+averageVolume10days,150209
+averageDailyVolume10Day,150209
+bid,701.0
+ask,704.0
+bidSize,0
+askSize,0
+marketCap,672398272
+fiftyTwoWeekLow,472.5
+fiftyTwoWeekHigh,787.0
+priceToSalesTrailing12Months,1.5899699
+fiftyDayAverage,635.98
+twoHundredDayAverage,626.3775
+trailingAnnualDividendRate,0.125
+trailingAnnualDividendYield,0.00018142235
+currency,GBp
+tradeable,False
+enterpriseValue,747990912
+profitMargins,0.05817
+floatShares,93220330
+sharesOutstanding,96056896
+heldPercentInsiders,0.04442
+heldPercentInstitutions,0.81755996
+impliedSharesOutstanding,98712800
+bookValue,3.206
+priceToBook,218.3406
+lastFiscalYearEnd,1743379200
+nextFiscalYearEnd,1774915200
+mostRecentQuarter,1743379200
+earningsQuarterlyGrowth,2.15
+netIncomeToCommon,24600000
+trailingEps,0.25
+forwardEps,39.82
+enterpriseToRevenue,1.769
+enterpriseToEbitda,11.579
+52WeekChange,0.026392937
+SandP52WeekChange,0.12677538
+lastDividendValue,0.086
+lastDividendDate,1750896000
+quoteType,EQUITY
+currentPrice,700.0
+targetHighPrice,1110.0
+targetLowPrice,735.0
+targetMeanPrice,898.889
+targetMedianPrice,889.99994
+recommendationKey,none
+numberOfAnalystOpinions,9
+totalCash,139300000
+totalCashPerShare,1.45
+ebitda,64600000
+totalDebt,261000000
+quickRatio,1.086
+currentRatio,1.525
+totalRevenue,422900000
+debtToEquity,84.74
+revenuePerShare,4.404
+returnOnAssets,0.04024
+returnOnEquity,0.08071
+grossProfits,224400000
+freeCashflow,54925000
+operatingCashflow,46400000
+earningsGrowth,2.135
+revenueGrowth,-0.015
+grossMargins,0.53062
+ebitdaMargins,0.15275
+operatingMargins,0.1067
+financialCurrency,GBP
+symbol,DSCV.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+exchange,LSE
+messageBoardId,finmb_877373
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+regularMarketChangePercent,1.5965167
+regularMarketPrice,700.0
+corporateActions,[]
+regularMarketTime,1751643342
+marketState,CLOSED
+shortName,DISCOVERIE GROUP PLC ORD 5P
+longName,discoverIE Group plc
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,583743600000
+regularMarketChange,11.0
+regularMarketDayRange,682.0 - 719.0
+fullExchangeName,LSE
+averageDailyVolume3Month,204851
+fiftyTwoWeekLowChange,227.5
+fiftyTwoWeekLowChangePercent,0.4814815
+fiftyTwoWeekRange,472.5 - 787.0
+fiftyTwoWeekHighChange,-87.0
+fiftyTwoWeekHighChangePercent,-0.11054638
+fiftyTwoWeekChangePercent,2.6392937
+earningsTimestamp,1749016803
+earningsTimestampStart,1749016803
+earningsTimestampEnd,1749016803
+earningsCallTimestampStart,1749025800
+earningsCallTimestampEnd,1749025800
+isEarningsDateEstimate,False
+epsTrailingTwelveMonths,0.25
+epsForward,39.82
+epsCurrentYear,0.40323
+priceEpsCurrentYear,1735.9819
+fiftyDayAverageChange,64.02002
+fiftyDayAverageChangePercent,0.10066358
+twoHundredDayAverageChange,73.6225
+twoHundredDayAverageChangePercent,0.11753695
+sourceInterval,15
+exchangeDataDelayedBy,15
+cryptoTradeable,False
+trailingPegRatio,

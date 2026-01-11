@@ -1,0 +1,86 @@
+Metric,Value
+phone,(414) 765-5586
+longBusinessSummary,"The index is a rules-based index that tracks the performance of a portfolio of companies conducting legal activities under the national laws of the applicable country related to medical psychedelics, medical cannabis, cannabis pharmaceuticals and cannabidiol derivatives, and ketamine. The fund uses a “replication” strategy to achieve its investment objective, it will invest in all of the component securities of the index in the same approximate proportions as in the index. It is non-diversified."
+companyOfficers,[]
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,5.93
+open,5.92
+dayLow,5.84
+dayHigh,5.91
+regularMarketPreviousClose,5.93
+regularMarketOpen,5.92
+regularMarketDayLow,5.84
+regularMarketDayHigh,5.91
+volume,20616
+regularMarketVolume,20616
+averageVolume,0
+averageVolume10days,0
+averageDailyVolume10Day,0
+bid,0.0
+ask,0.0
+bidSize,8
+askSize,12
+yield,0.060500003
+totalAssets,4676894
+fiftyTwoWeekLow,5.84
+fiftyTwoWeekHigh,5.91
+fiftyDayAverage,5.9
+twoHundredDayAverage,5.9
+navPrice,5.933
+currency,USD
+tradeable,False
+category,Miscellaneous Sector
+ytdReturn,-50.0846
+beta3Year,0.0
+fundFamily,Defiance ETFs
+fundInceptionDate,1622073600
+legalType,Exchange Traded Fund
+quoteType,ETF
+symbol,PSY
+language,en-US
+region,US
+typeDisp,ETF
+quoteSourceName,Delayed Quote
+triggerable,True
+customPriceAlertConfidence,HIGH
+exchange,PCX
+messageBoardId,finmb_709652779
+exchangeTimezoneName,America/New_York
+exchangeTimezoneShortName,EDT
+gmtOffSetMilliseconds,-14400000
+market,us_market
+esgPopulated,False
+regularMarketChangePercent,-0.505898
+regularMarketPrice,5.9
+corporateActions,[]
+regularMarketTime,1661803200
+marketState,CLOSED
+shortName,Defiance Next Gen Altered Exper
+longName,Defiance Next Gen Altered Experience ETF
+hasPrePostMarketData,True
+firstTradeDateMilliseconds,1622122200000
+regularMarketChange,-0.0299997
+regularMarketDayRange,5.84 - 5.91
+fullExchangeName,NYSEArca
+averageDailyVolume3Month,0
+fiftyTwoWeekLowChange,0.059999943
+fiftyTwoWeekLowChangePercent,0.010273962
+fiftyTwoWeekRange,5.84 - 5.91
+fiftyTwoWeekHighChange,-0.009999752
+fiftyTwoWeekHighChangePercent,-0.0016920054
+fiftyTwoWeekChangePercent,0.0
+dividendYield,6.05
+trailingThreeMonthReturns,12.05865
+trailingThreeMonthNavReturns,12.05865
+netAssets,4676894.0
+fiftyDayAverageChange,0.0
+fiftyDayAverageChangePercent,0.0
+twoHundredDayAverageChange,0.0
+twoHundredDayAverageChangePercent,0.0
+netExpenseRatio,0.75
+sourceInterval,15
+exchangeDataDelayedBy,0
+cryptoTradeable,False
+trailingPegRatio,

@@ -1,0 +1,134 @@
+Metric,Value
+address1,The Scalpel
+address2,52 Lime Street
+city,London
+zip,EC3M 7AF
+country,United Kingdom
+website,https://sivotacapital.com
+industry,Asset Management
+industryKey,asset-management
+industryDisp,Asset Management
+sector,Financial Services
+sectorKey,financial-services
+sectorDisp,Financial Services
+longBusinessSummary,"Sivota PLC, through its subsidiary, operates a digital experience software platform in the United Kingdom. The company's platform enables brands, publishers, creators, and e-commerce businesses to publish and monetize interactive digital experiences on their sites and apps. Sivota PLC was incorporated in 2020 and is based in London, the United Kingdom."
+fullTimeEmployees,4
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Ziv  Ben-Barouch CPA', 'age': 60, 'title': 'CEO, Investment Manager & Director', 'yearBorn': 1964, 'fiscalYear': 2024, 'totalPay': 64146, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Neil Garth Jones ACA, BA', 'age': 58, 'title': 'Secretary & Non-Executive Director', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 20410, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Anni Ben Yair', 'title': 'Chief Executive Officer of Apester Limited', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+compensationAsOfEpochDate,1735603200
+executiveTeam,[]
+maxAge,86400
+priceHint,4
+previousClose,4.5
+open,0.0
+dayLow,0.0
+dayHigh,0.0
+regularMarketPreviousClose,4.5
+regularMarketOpen,0.0
+regularMarketDayLow,0.0
+regularMarketDayHigh,0.0
+payoutRatio,0.0
+beta,-0.364
+forwardPE,0.0042938935
+volume,122000
+regularMarketVolume,122000
+averageVolume,32
+averageVolume10days,0
+averageDailyVolume10Day,0
+bid,2.0
+ask,7.0
+marketCap,566325
+fiftyTwoWeekLow,0.0
+fiftyTwoWeekHigh,27.5
+priceToSalesTrailing12Months,6.4355116
+fiftyDayAverage,0.8469
+twoHundredDayAverage,1.755625
+trailingAnnualDividendRate,0.0
+trailingAnnualDividendYield,0.0
+currency,GBp
+tradeable,False
+enterpriseValue,416325
+profitMargins,0.0
+floatShares,3736738
+sharesOutstanding,12585000
+heldPercentInsiders,0.708
+heldPercentInstitutions,0.13888
+impliedSharesOutstanding,14682500
+bookValue,-0.031
+lastFiscalYearEnd,1735603200
+nextFiscalYearEnd,1767139200
+mostRecentQuarter,1735603200
+netIncomeToCommon,-3242000
+trailingEps,-0.19
+forwardEps,10.48
+enterpriseToRevenue,4.731
+enterpriseToEbitda,-5.626
+52WeekChange,-0.9983636
+SandP52WeekChange,0.12677538
+quoteType,EQUITY
+currentPrice,4.5
+recommendationKey,none
+totalCash,150000
+totalCashPerShare,0.012
+ebitda,-74000
+totalDebt,0
+quickRatio,0.278
+currentRatio,0.296
+totalRevenue,88000
+revenuePerShare,0.007
+returnOnAssets,-0.15156999
+returnOnEquity,-2.62298
+grossProfits,88000
+freeCashflow,786375
+operatingCashflow,-326000
+revenueGrowth,-0.432
+grossMargins,1.0
+ebitdaMargins,-0.84091
+operatingMargins,-0.55682
+financialCurrency,USD
+symbol,SIV.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+exchange,LSE
+messageBoardId,finmb_306268975
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+corporateActions,[]
+regularMarketTime,1747213601
+marketState,CLOSED
+regularMarketChangePercent,0.0
+regularMarketPrice,4.5
+regularMarketChange,0.0
+regularMarketDayRange,0.0 - 0.0
+fullExchangeName,LSE
+averageDailyVolume3Month,32
+fiftyTwoWeekLowChange,4.5
+fiftyTwoWeekRange,0.0 - 27.5
+fiftyTwoWeekHighChange,-23.0
+fiftyTwoWeekHighChangePercent,-0.8363636
+fiftyTwoWeekChangePercent,-99.836365
+earningsTimestamp,1746000000
+earningsTimestampStart,1756378740
+earningsTimestampEnd,1756987200
+isEarningsDateEstimate,True
+shortName,SIVOTA PLC ORD GBP0.01
+longName,Sivota PLC
+epsTrailingTwelveMonths,-0.19
+epsForward,10.48
+fiftyDayAverageChange,3.6531
+fiftyDayAverageChangePercent,4.3134966
+twoHundredDayAverageChange,2.744375
+twoHundredDayAverageChangePercent,1.5631897
+priceToBook,-145.16129
+sourceInterval,15
+exchangeDataDelayedBy,15
+cryptoTradeable,False
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,1626937200000
+trailingPegRatio,

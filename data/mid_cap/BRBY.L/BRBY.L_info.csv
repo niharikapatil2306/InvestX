@@ -1,0 +1,159 @@
+Metric,Value
+address1,Horseferry House
+address2,Horseferry Road Westminster
+city,London
+zip,SW1P 2AW
+country,United Kingdom
+website,https://www.burberryplc.com
+industry,Luxury Goods
+industryKey,luxury-goods
+industryDisp,Luxury Goods
+sector,Consumer Cyclical
+sectorKey,consumer-cyclical
+sectorDisp,Consumer Cyclical
+longBusinessSummary,"Burberry Group plc, together with its subsidiaries, engages in manufacturing, retail, and wholesale of luxury goods under the Burberry brand in the Asia Pacific, Europe, the Middle East, India, Africa, and the Americas. The company operates in two segments, Retail/Wholesale and Licensing. It offers accessories, womenswear, menswear, childrenswear, and others, as well as eyewear and beauty, and bags. The company also licenses third parties to manufacture and distribute products using the Burberry trademarks. It sells its products through operated stores, concessions, outlets, digital commerce, Burberry franchisees, department stores, multi-brand specialty accounts, and through the Burberry.com website. Burberry Group plc was founded in 1856 and is headquartered in London, the United Kingdom."
+fullTimeEmployees,8459
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Joshua Gallay Schulman', 'age': 53, 'title': 'CEO & Executive Director', 'yearBorn': 1971, 'fiscalYear': 2025, 'totalPay': 2915550, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Catherine Elizabeth Ferry', 'age': 51, 'title': 'Executive Director & CFO', 'yearBorn': 1973, 'fiscalYear': 2025, 'totalPay': 907000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Charlotte  Baldwin', 'title': 'Chief Information Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Julian Kenneth Easthope', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Edward  Rash', 'age': 52, 'title': 'General Counsel', 'yearBorn': 1972, 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Jonathan  Kiman', 'title': 'Chief Marketing Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Alexandra  McCauley', 'title': 'Chief People Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Paul  Price', 'title': 'Chief Product Merchandising & Planning Officer', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Ryad  Djellas', 'title': 'Senior Vice President of Finance', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Andrew  Roberts', 'title': 'Senior Vice President of Corporate Relations & Engagement', 'fiscalYear': 2025, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+auditRisk,2
+boardRisk,1
+compensationRisk,5
+shareHolderRightsRisk,1
+overallRisk,1
+governanceEpochDate,1748736000
+compensationAsOfEpochDate,1767139200
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,1255.0
+open,1252.5
+dayLow,1229.5
+dayHigh,1264.0
+regularMarketPreviousClose,1255.0
+regularMarketOpen,1252.5
+regularMarketDayLow,1229.5
+regularMarketDayHigh,1264.0
+exDividendDate,1719446400
+payoutRatio,5.5963
+fiveYearAvgDividendYield,2.21
+beta,0.979
+forwardPE,0.4804108
+volume,3098387
+regularMarketVolume,3098387
+averageVolume,1899105
+averageVolume10days,2121399
+averageDailyVolume10Day,2121399
+bid,1255.5
+ask,1257.0
+bidSize,0
+askSize,0
+marketCap,4536405504
+fiftyTwoWeekLow,555.61
+fiftyTwoWeekHigh,1265.5
+priceToSalesTrailing12Months,1.843318
+fiftyDayAverage,990.912
+twoHundredDayAverage,919.002
+trailingAnnualDividendRate,0.0
+trailingAnnualDividendYield,0.0
+currency,GBp
+tradeable,False
+enterpriseValue,5346379264
+profitMargins,-0.030480001
+floatShares,352669027
+sharesOutstanding,359176992
+heldPercentInsiders,0.00819
+heldPercentInstitutions,0.70275
+impliedSharesOutstanding,360036000
+bookValue,2.557
+priceToBook,493.93823
+lastFiscalYearEnd,1743206400
+nextFiscalYearEnd,1774742400
+mostRecentQuarter,1743206400
+netIncomeToCommon,-75000000
+trailingEps,-0.21
+forwardEps,26.29
+enterpriseToRevenue,2.172
+enterpriseToEbitda,38.463
+52WeekChange,0.40614557
+SandP52WeekChange,0.12677538
+lastDividendValue,0.427
+lastDividendDate,1719446400
+quoteType,EQUITY
+currentPrice,1263.0
+targetHighPrice,1400.0
+targetLowPrice,580.0
+targetMeanPrice,1085.556
+targetMedianPrice,1050.0
+recommendationMean,2.66667
+recommendationKey,hold
+numberOfAnalystOpinions,18
+totalCash,813000000
+totalCashPerShare,2.274
+ebitda,139000000
+totalDebt,1927000064
+quickRatio,1.07
+currentRatio,1.487
+totalRevenue,2460999936
+debtToEquity,209.229
+revenuePerShare,6.884
+returnOnAssets,0.00478
+returnOnEquity,-0.07229
+grossProfits,1538000000
+freeCashflow,328500000
+operatingCashflow,429000000
+revenueGrowth,-0.125
+grossMargins,0.62495
+ebitdaMargins,0.056479998
+operatingMargins,0.04873
+financialCurrency,GBP
+symbol,BRBY.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+marketState,CLOSED
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,1026457200000
+messageBoardId,finmb_2582196
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+corporateActions,[]
+regularMarketTime,1751643365
+exchange,LSE
+averageAnalystRating,2.7 - Hold
+cryptoTradeable,False
+regularMarketChange,8.0
+regularMarketDayRange,1229.5 - 1264.0
+fullExchangeName,LSE
+averageDailyVolume3Month,1899105
+fiftyTwoWeekLowChange,707.39
+fiftyTwoWeekLowChangePercent,1.2731773
+fiftyTwoWeekRange,555.61 - 1265.5
+fiftyTwoWeekHighChange,-2.5
+fiftyTwoWeekHighChangePercent,-0.0019755038
+fiftyTwoWeekChangePercent,40.614555
+earningsTimestamp,1747202400
+earningsTimestampStart,1747202400
+earningsTimestampEnd,1747202400
+earningsCallTimestampStart,1747211400
+earningsCallTimestampEnd,1747211400
+isEarningsDateEstimate,False
+epsTrailingTwelveMonths,-0.21
+epsForward,26.29
+epsCurrentYear,0.198
+priceEpsCurrentYear,6378.788
+fiftyDayAverageChange,272.088
+fiftyDayAverageChangePercent,0.27458343
+twoHundredDayAverageChange,343.998
+twoHundredDayAverageChangePercent,0.3743169
+sourceInterval,15
+exchangeDataDelayedBy,15
+shortName,BURBERRY GROUP PLC ORD 0.05P
+longName,Burberry Group plc
+regularMarketChangePercent,0.6374502
+regularMarketPrice,1263.0
+trailingPegRatio,1.2384

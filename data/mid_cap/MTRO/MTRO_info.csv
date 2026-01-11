@@ -1,0 +1,108 @@
+Metric,Value
+address1,125 Avenida Mesita
+city,San Clemente
+state,CA
+zip,92673
+country,United States
+phone,949-682-7891
+website,https://www.metro-one.com
+industry,
+industryKey,
+sector,
+sectorKey,
+longBusinessSummary,"Metro One Development, Inc. operates as an interactive media display development company in Canada. It specializes in touchless, gesturehand, and body motion enabled software solutions that provide a new way of interfacing with consumers. The company was formerly known as On the Go Healthcare, Inc. and changed its name to Metro One Development, Inc. in April 2008. Metro One Development, Inc. was incorporated in 2000 and is headquartered in San Clemente, California."
+fullTimeEmployees,2
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Stuart  Turk', 'age': 55, 'title': 'Founder, Chairman of the Board, Chief Executive Officer, President, Secretary and Treasurer', 'yearBorn': 1969, 'fiscalYear': 2010, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Evan  Schwartzberg BA, CCM', 'age': 57, 'title': 'Chief Financial Officer and Chief Accounting Officer', 'yearBorn': 1967, 'fiscalYear': 2010, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+compensationAsOfEpochDate,1293753600
+executiveTeam,[]
+maxAge,86400
+priceHint,4
+previousClose,3.70002e-38
+open,1e-06
+dayLow,1e-06
+dayHigh,1e-06
+regularMarketPreviousClose,3.70002e-38
+regularMarketOpen,1e-06
+regularMarketDayLow,1e-06
+regularMarketDayHigh,1e-06
+volume,1
+regularMarketVolume,1
+averageVolume,236002
+averageVolume10days,236002
+averageDailyVolume10Day,236002
+bid,0.0
+ask,0.0
+bidSize,0
+askSize,0
+marketCap,447
+fiftyTwoWeekLow,1e-06
+fiftyTwoWeekHigh,1e-06
+fiftyDayAverage,1e-06
+twoHundredDayAverage,1e-06
+trailingAnnualDividendRate,0.0
+trailingAnnualDividendYield,0.0
+currency,USD
+tradeable,False
+profitMargins,0.0
+sharesOutstanding,447496000
+bookValue,-0.025
+lastFiscalYearEnd,1280534400
+nextFiscalYearEnd,1312070400
+mostRecentQuarter,1288396800
+netIncomeToCommon,-1331427
+trailingEps,-0.007
+52WeekChange,0.0
+SandP52WeekChange,0.12677538
+quoteType,EQUITY
+currentPrice,1e-06
+recommendationKey,none
+totalDebt,434153
+operatingCashflow,519112
+grossMargins,0.0
+ebitdaMargins,0.0
+operatingMargins,0.0
+financialCurrency,USD
+symbol,MTRO
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+exchange,OEM
+messageBoardId,finmb_3561416
+exchangeTimezoneName,America/New_York
+exchangeTimezoneShortName,EDT
+gmtOffSetMilliseconds,-14400000
+market,us_market
+esgPopulated,False
+regularMarketChangePercent,0.0
+regularMarketPrice,1e-06
+corporateActions,[]
+regularMarketTime,1748995200
+marketState,CLOSED
+shortName,METRO ONE DEVELOPMENT INC
+longName,"Metro One Development, Inc."
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,1689255000000
+regularMarketChange,0.0
+regularMarketDayRange,1.0E-6 - 1.0E-6
+fullExchangeName,OTC Markets EXMKT
+averageDailyVolume3Month,236002
+fiftyTwoWeekLowChange,0.0
+fiftyTwoWeekLowChangePercent,0.0
+fiftyTwoWeekRange,1.0E-6 - 1.0E-6
+fiftyTwoWeekHighChange,0.0
+fiftyTwoWeekHighChangePercent,0.0
+fiftyTwoWeekChangePercent,0.0
+epsTrailingTwelveMonths,-0.007
+fiftyDayAverageChange,0.0
+fiftyDayAverageChangePercent,0.0
+twoHundredDayAverageChange,0.0
+twoHundredDayAverageChangePercent,0.0
+priceToBook,-4e-05
+sourceInterval,15
+exchangeDataDelayedBy,0
+cryptoTradeable,False
+displayName,Metro One Development
+trailingPegRatio,

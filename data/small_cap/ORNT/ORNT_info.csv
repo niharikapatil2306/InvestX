@@ -1,0 +1,29 @@
+Metric,Value
+quoteType,MUTUALFUND
+symbol,ORNT
+language,en-US
+region,US
+typeDisp,Fund
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,NONE
+marketState,CLOSED
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,1476365400000
+priceHint,2
+exchangeTimezoneName,America/New_York
+exchangeTimezoneShortName,EDT
+gmtOffSetMilliseconds,-14400000
+market,us_market
+esgPopulated,False
+corporateActions,[]
+regularMarketTime,1561759658
+exchange,YHD
+tradeable,False
+cryptoTradeable,False
+fullExchangeName,YHD
+sourceInterval,15
+exchangeDataDelayedBy,0
+longName,"Ournett Holdings, Inc"
+displayName,Ournett
+trailingPegRatio,

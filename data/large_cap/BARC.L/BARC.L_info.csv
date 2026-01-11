@@ -1,0 +1,159 @@
+Metric,Value
+address1,1 Churchill Place
+city,London
+zip,E14 5HP
+country,United Kingdom
+phone,44 20 7116 1000
+website,https://home.barclays
+industry,Banks - Diversified
+industryKey,banks-diversified
+industryDisp,Banks - Diversified
+sector,Financial Services
+sectorKey,financial-services
+sectorDisp,Financial Services
+longBusinessSummary,"Barclays PLC provides various financial services in the United Kingdom, Europe, the Americas, Africa, the Middle East, and Asia. The company operates through Barclays UK; Barclays UK Corporate Bank; Barclays Private Bank and Wealth Management; Barclays Investment Bank; and Barclays US Consumer Bank segments. It offers financial services, such as retail banking, credit cards, wholesale banking, investment banking, wealth management, and investment management services, as well as lending products. In addition, the company engages in securities dealing activities and issuing of credit cards. The company was formerly known as Barclays Bank public limited company and changed its name to Barclays PLC in January 1985. Barclays PLC was founded in 1690 and is headquartered in London, the United Kingdom."
+fullTimeEmployees,93000
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Coimbatore Sundararajan Venkatakrishnan Ph.D.', 'age': 58, 'title': 'Group CEO & Executive Director', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 5396000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Angela Anna Cross', 'age': 54, 'title': 'Group Finance Director & Executive Director', 'yearBorn': 1970, 'fiscalYear': 2024, 'totalPay': 3280000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Alistair  Currie', 'title': 'Group COO & Chief Executive of Barclays Execution Services (BX)', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Susannah Hall Parden', 'title': 'Group Chief Accounting Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Reid  Marsh', 'title': 'Global Chairman of Investment Banking & Acting Head of European Banking', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Marco  Valla', 'title': 'Global Head of Technology, Media & Telecoms and Consumer & Retail Investment Banking', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Dr. Adam  Kelleher', 'title': 'Chief Data Scientist for Research', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Craig  Bright', 'age': 58, 'title': 'Chief Information Officer', 'yearBorn': 1966, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Stephen Victor Shapiro', 'title': 'Group General Counsel', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Matthew  Fitzwater', 'title': 'Group Chief Compliance Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+auditRisk,2
+boardRisk,2
+compensationRisk,3
+shareHolderRightsRisk,1
+overallRisk,1
+governanceEpochDate,1748736000
+compensationAsOfEpochDate,1735603200
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,332.35
+open,330.8
+dayLow,329.15
+dayHigh,333.45
+regularMarketPreviousClose,332.35
+regularMarketOpen,330.8
+regularMarketDayLow,329.15
+regularMarketDayHigh,333.45
+dividendRate,0.08
+dividendYield,2.49
+exDividendDate,1740614400
+payoutRatio,0.22399999
+fiveYearAvgDividendYield,2.92
+beta,1.06
+trailingPE,8.697369
+forwardPE,0.0813839
+volume,15476073
+regularMarketVolume,15476073
+averageVolume,43551124
+averageVolume10days,31793198
+averageDailyVolume10Day,31793198
+bid,330.5
+ask,330.55
+bidSize,0
+askSize,0
+marketCap,46767403008
+fiftyTwoWeekLow,196.44
+fiftyTwoWeekHigh,340.35
+priceToSalesTrailing12Months,1.8800211
+fiftyDayAverage,320.873
+twoHundredDayAverage,283.94324
+trailingAnnualDividendRate,0.084
+trailingAnnualDividendYield,0.00025274558
+currency,GBp
+tradeable,False
+enterpriseValue,73943121920
+profitMargins,0.26507
+floatShares,13291121560
+sharesOutstanding,14150500352
+heldPercentInsiders,0.00324
+heldPercentInstitutions,0.55159
+impliedSharesOutstanding,14328500224
+bookValue,4.305
+priceToBook,76.7712
+lastFiscalYearEnd,1735603200
+nextFiscalYearEnd,1767139200
+mostRecentQuarter,1743379200
+earningsQuarterlyGrowth,0.159
+netIncomeToCommon,5630000128
+trailingEps,0.38
+forwardEps,40.61
+lastSplitFactor,4:1
+lastSplitDate,1020038400
+enterpriseToRevenue,2.972
+52WeekChange,0.48840356
+SandP52WeekChange,0.12677538
+lastDividendValue,0.055
+lastDividendDate,1740614400
+quoteType,EQUITY
+currentPrice,330.5
+targetHighPrice,419.99997
+targetLowPrice,230.0
+targetMeanPrice,353.688
+targetMedianPrice,360.0
+recommendationMean,1.75
+recommendationKey,buy
+numberOfAnalystOpinions,16
+totalCash,689328029696
+totalCashPerShare,48.158
+totalDebt,714330013696
+totalRevenue,24875999232
+revenuePerShare,1.705
+returnOnAssets,0.00419
+returnOnEquity,0.089829996
+grossProfits,24875999232
+earningsGrowth,0.259
+revenueGrowth,0.097
+grossMargins,0.0
+ebitdaMargins,0.0
+operatingMargins,0.38636002
+financialCurrency,GBP
+symbol,BARC.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,583743600000
+corporateActions,[]
+regularMarketTime,1751643318
+exchange,LSE
+messageBoardId,finmb_323899
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+regularMarketChangePercent,-0.5566439
+regularMarketPrice,330.5
+marketState,CLOSED
+shortName,BARCLAYS PLC ORD 25P
+longName,Barclays PLC
+regularMarketChange,-1.8500061
+regularMarketDayRange,329.15 - 333.45
+fullExchangeName,LSE
+averageDailyVolume3Month,43551124
+fiftyTwoWeekLowChange,134.06
+fiftyTwoWeekLowChangePercent,0.68244755
+fiftyTwoWeekRange,196.44 - 340.35
+fiftyTwoWeekHighChange,-9.850006
+fiftyTwoWeekHighChangePercent,-0.028940814
+fiftyTwoWeekChangePercent,48.840355
+earningsTimestamp,1753768800
+earningsTimestampStart,1753768800
+earningsTimestampEnd,1753768800
+earningsCallTimestampStart,1746001800
+earningsCallTimestampEnd,1746001800
+isEarningsDateEstimate,False
+epsTrailingTwelveMonths,0.38
+epsForward,40.61
+epsCurrentYear,0.41281
+priceEpsCurrentYear,800.6105
+fiftyDayAverageChange,9.627014
+fiftyDayAverageChangePercent,0.03000257
+twoHundredDayAverageChange,46.556763
+twoHundredDayAverageChangePercent,0.16396503
+sourceInterval,15
+exchangeDataDelayedBy,15
+averageAnalystRating,1.8 - Buy
+cryptoTradeable,False
+trailingPegRatio,1.3822

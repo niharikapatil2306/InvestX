@@ -1,0 +1,125 @@
+Metric,Value
+address1,61-65 Church Street
+address2,Harston
+city,Cambridge
+zip,CB22 7NP
+country,United Kingdom
+phone,44 12 2326 0022
+fax,44 12 2326 0022
+website,https://abeplc.co.uk
+industry,Capital Markets
+industryKey,capital-markets
+industryDisp,Capital Markets
+sector,Financial Services
+sectorKey,financial-services
+sectorDisp,Financial Services
+longBusinessSummary,"Associated British Engineering Plc, through its subsidiary, Akoris Trading Limited, engages in commodity and natural resource trading, and finance and investment businesses in the United Kingdom. The company was incorporated in 1910 and is based in Cambridge, United Kingdom."
+fullTimeEmployees,3
+companyOfficers,"[{'maxAge': 1, 'name': 'Mr. Colin L. Weinberg', 'age': 75, 'title': 'Joint Chairman, Deputy Chairman & Part time Executive of Finance', 'yearBorn': 1949, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rupert Anthony Pearce Gould Esq.', 'age': 73, 'title': 'Joint Chairman, Deputy Chairman, Secretary & Part time executive of Operational', 'yearBorn': 1951, 'exercisedValue': 0, 'unexercisedValue': 0}]"
+executiveTeam,[]
+maxAge,86400
+priceHint,2
+previousClose,35.0
+open,0.0
+dayLow,0.0
+dayHigh,0.0
+regularMarketPreviousClose,35.0
+regularMarketOpen,0.0
+regularMarketDayLow,0.0
+regularMarketDayHigh,0.0
+exDividendDate,841104000
+payoutRatio,0.0
+fiveYearAvgDividendYield,1.63
+beta,0.0
+volume,61000
+regularMarketVolume,61000
+averageVolume,312
+averageVolume10days,807
+averageDailyVolume10Day,807
+bid,15.0
+ask,0.0
+marketCap,717146
+fiftyTwoWeekLow,0.0
+fiftyTwoWeekHigh,50.0
+fiftyDayAverage,12.263
+twoHundredDayAverage,3.17825
+trailingAnnualDividendRate,0.0
+trailingAnnualDividendYield,0.0
+currency,GBp
+tradeable,False
+enterpriseValue,394888
+profitMargins,0.0
+sharesOutstanding,2048990
+heldPercentInsiders,0.21106
+heldPercentInstitutions,0.0
+impliedSharesOutstanding,2048990
+bookValue,0.166
+priceToBook,210.84338
+lastFiscalYearEnd,1727654400
+nextFiscalYearEnd,1759190400
+mostRecentQuarter,1743379200
+netIncomeToCommon,-43000
+trailingEps,-0.02
+lastSplitFactor,1:200
+lastSplitDate,936835200
+52WeekChange,232.33333
+SandP52WeekChange,0.12677538
+lastDividendValue,0.097254
+lastDividendDate,777513600
+quoteType,EQUITY
+currentPrice,35.0
+recommendationKey,none
+totalCash,344000
+totalCashPerShare,0.163
+totalDebt,0
+quickRatio,8.738
+currentRatio,8.738
+returnOnAssets,-0.05549
+returnOnEquity,-0.116059996
+grossProfits,15000
+freeCashflow,-52750
+operatingCashflow,-75000
+grossMargins,0.0
+ebitdaMargins,0.0
+operatingMargins,0.0
+financialCurrency,GBP
+symbol,ASBE.L
+language,en-US
+region,US
+typeDisp,Equity
+quoteSourceName,Delayed Quote
+triggerable,False
+customPriceAlertConfidence,LOW
+longName,Associated British Engineering Plc
+marketState,CLOSED
+corporateActions,[]
+regularMarketTime,1751529459
+exchange,LSE
+messageBoardId,finmb_875248
+exchangeTimezoneName,Europe/London
+exchangeTimezoneShortName,BST
+gmtOffSetMilliseconds,3600000
+market,gb_market
+esgPopulated,False
+regularMarketChangePercent,0.0
+regularMarketPrice,35.0
+hasPrePostMarketData,False
+firstTradeDateMilliseconds,583743600000
+regularMarketChange,0.0
+regularMarketDayRange,0.0 - 0.0
+fullExchangeName,LSE
+averageDailyVolume3Month,312
+fiftyTwoWeekLowChange,35.0
+fiftyTwoWeekRange,0.0 - 50.0
+fiftyTwoWeekHighChange,-15.0
+fiftyTwoWeekHighChangePercent,-0.3
+fiftyTwoWeekChangePercent,23233.332
+epsTrailingTwelveMonths,-0.02
+fiftyDayAverageChange,22.737
+fiftyDayAverageChangePercent,1.854114
+twoHundredDayAverageChange,31.82175
+twoHundredDayAverageChangePercent,10.012349
+sourceInterval,15
+exchangeDataDelayedBy,15
+cryptoTradeable,False
+trailingPegRatio,
