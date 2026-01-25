@@ -431,7 +431,7 @@ function App() {
                   </div>
                   <div className="insight-cards">
                     <div className="insight-card">
-                      <div className="insight-icon">📅</div>
+                      <div className="insight-icon">W</div>
                       <div className="insight-content">
                         <span className="insight-label">Expected Weekly Return</span>
                         <span className={`insight-value ${results.expected_return.weekly.mean_return >= 0 ? 'positive' : 'negative'}`}>
@@ -443,7 +443,7 @@ function App() {
                       </div>
                     </div>
                     <div className="insight-card">
-                      <div className="insight-icon">📈</div>
+                      <div className="insight-icon">Y</div>
                       <div className="insight-content">
                         <span className="insight-label">Expected Annual Return</span>
                         <span className={`insight-value ${results.expected_return.annual.mean_return >= 0 ? 'positive' : 'negative'}`}>
@@ -455,14 +455,14 @@ function App() {
                       </div>
                     </div>
                     <div className="insight-card">
-                      <div className="insight-icon">🎢</div>
+                      <div className="insight-icon">V</div>
                       <div className="insight-content">
                         <span className="insight-label">Volatility (Risk Level)</span>
                         <span className="insight-value">{formatPercent(results.expected_return.annual.volatility)}</span>
                         <span className="insight-explain">
                           {results.expected_return.annual.volatility < 0.15 ? "Low risk - relatively stable" :
                            results.expected_return.annual.volatility < 0.25 ? "Moderate risk - expect some ups and downs" :
-                           "High risk - buckle up for a bumpy ride!"}
+                           "High risk - expect significant price swings"}
                         </span>
                       </div>
                     </div>
@@ -528,19 +528,19 @@ function App() {
                   </div>
                   <div className="future-scenarios">
                     <div className="future-card bad">
-                      <div className="future-emoji">😰</div>
+                      <div className="future-icon">5%</div>
                       <div className="future-label">Bad Week</div>
                       <div className="future-sublabel">Worst 5% of outcomes</div>
                       <div className="future-value">{formatCurrency(results.monte_carlo.percentiles['5th'])}</div>
                     </div>
                     <div className="future-card neutral">
-                      <div className="future-emoji">😐</div>
+                      <div className="future-icon">AVG</div>
                       <div className="future-label">Typical Week</div>
                       <div className="future-sublabel">Average outcome</div>
                       <div className="future-value">{formatCurrency(results.monte_carlo.statistics.mean)}</div>
                     </div>
                     <div className="future-card good">
-                      <div className="future-emoji">🎉</div>
+                      <div className="future-icon">95%</div>
                       <div className="future-label">Great Week</div>
                       <div className="future-sublabel">Best 5% of outcomes</div>
                       <div className="future-value">{formatCurrency(results.monte_carlo.percentiles['95th'])}</div>
@@ -587,25 +587,25 @@ function App() {
                   </div>
                   <div className="stress-scenarios">
                     <div className="stress-card">
-                      <div className="stress-icon">📉</div>
+                      <div className="stress-icon">-20%</div>
                       <div className="stress-name">Market Crash</div>
                       <div className="stress-desc">If the market drops 20% (like 2008 or 2020)</div>
                       <div className="stress-loss">{formatCurrency(results.stress_tests.scenarios.market_crash_20pct.portfolio_loss)}</div>
                     </div>
                     <div className="stress-card">
-                      <div className="stress-icon">⚡</div>
+                      <div className="stress-icon">1D</div>
                       <div className="stress-name">Flash Crash</div>
                       <div className="stress-desc">Your worst single day based on history</div>
                       <div className="stress-loss">{formatCurrency(results.stress_tests.scenarios.flash_crash.portfolio_loss)}</div>
                     </div>
                     <div className="stress-card">
-                      <div className="stress-icon">📊</div>
+                      <div className="stress-icon">5D</div>
                       <div className="stress-name">Prolonged Downturn</div>
                       <div className="stress-desc">A week of consistently bad days</div>
                       <div className="stress-loss">{formatCurrency(results.stress_tests.scenarios.bad_week.portfolio_loss)}</div>
                     </div>
                     <div className="stress-card">
-                      <div className="stress-icon">🕳️</div>
+                      <div className="stress-icon">MAX</div>
                       <div className="stress-name">Maximum Drawdown</div>
                       <div className="stress-desc">Biggest peak-to-bottom drop historically</div>
                       <div className="stress-loss">{formatPercent(results.stress_tests.historical_drawdowns.max_drawdown)}</div>
