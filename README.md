@@ -94,6 +94,35 @@ The app will be available at http://localhost:5173
 - **Volatility**: How much your portfolio value fluctuates day-to-day
 - **Maximum Drawdown**: The largest peak-to-trough decline in portfolio value
 
+## Running Analysis Tests
+
+Generate statistics and KPIs for your resume:
+
+```bash
+# First, make sure backend is running in one terminal
+cd backend
+python main.py
+
+# In another terminal, run the test script
+cd backend
+python run_analysis_tests.py
+```
+
+This will output:
+- Data coverage statistics
+- API performance metrics
+- Sample portfolio analysis with real numbers
+- Resume-ready KPIs
+
+## Project KPIs
+
+- Analyzed 60+ UK equities across 10+ market sectors
+- Processed 250+ trading days of historical data per stock
+- Implemented 6 quantitative risk models (VaR, ES, Monte Carlo, etc.)
+- Executed 10,000 Monte Carlo simulations per portfolio analysis
+- Achieved sub-3 second API response times
+- Built real-time data pipeline with Yahoo Finance integration
+
 ## License
 
 MIT
