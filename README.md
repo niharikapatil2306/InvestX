@@ -80,6 +80,8 @@ The script exits with code 1 when more than 20% of tickers fail, so Task Schedul
 
 ## Running the App
 
+On first start the backend fetches market data in the background, which takes about a minute. To load it up front, run `python pipeline.py` first.
+
 ### Start Backend
 
 ```bash
