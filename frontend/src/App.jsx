@@ -40,6 +40,8 @@ function App() {
     return matchesFilter && matchesSearch
   })
 
+  const isUnavailable = (stock) => stock.data_status === 'failed'
+
   const toggleStock = (symbol) => {
     if (selectedSymbols.includes(symbol)) {
       setSelectedSymbols(selectedSymbols.filter(s => s !== symbol))
@@ -68,6 +70,9 @@ function App() {
   const getStockPrice = (symbol) => {
     const stock = stocks.find(s => s.symbol === symbol)
     if (!stock) return 0
+    // Latest validated close from the pipeline, already converted to pounds
+    if (stock.latest_price_gbp != null) return stock.latest_price_gbp
+    // Fallback to the CSV snapshot for stocks not yet ingested
     const priceStr = stock.price?.replace(/,/g, '').replace(' GBX', '').replace(' GBP', '')
     const price = parseFloat(priceStr) || 0
     return stock.price?.includes('GBX') ? price / 100 : price
@@ -229,8 +234,9 @@ function App() {
               {filteredStocks.map(stock => (
                 <div
                   key={stock.symbol}
-                  className={`stock-item ${selectedSymbols.includes(stock.symbol) ? 'selected' : ''}`}
-                  onClick={() => toggleStock(stock.symbol)}
+                  className={`stock-item ${selectedSymbols.includes(stock.symbol) ? 'selected' : ''} ${isUnavailable(stock) ? 'unavailable' : ''}`}
+                  onClick={() => !isUnavailable(stock) && toggleStock(stock.symbol)}
+                  title={isUnavailable(stock) ? stock.data_message : undefined}
                 >
                   <div className={`stock-checkbox ${selectedSymbols.includes(stock.symbol) ? 'checked' : ''}`} />
                   <div className="stock-info">
@@ -238,7 +244,7 @@ function App() {
                     <div className="stock-name">{stock.name}</div>
                   </div>
                   <div className="stock-meta">
-                    <span className="stock-tag">{stock.sector}</span>
+                    <span className="stock-tag">{isUnavailable(stock) ? 'no data' : stock.sector}</span>
                     <span className="stock-price">£{getStockPrice(stock.symbol).toFixed(2)}</span>
                   </div>
                 </div>

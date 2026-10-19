@@ -290,6 +290,16 @@ main {
   border-color: white;
 }
 
+.stock-item.unavailable {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.stock-item.unavailable:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
 .stock-checkbox {
   width: 20px;
   height: 20px;

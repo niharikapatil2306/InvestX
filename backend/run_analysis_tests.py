@@ -17,7 +17,7 @@ import pandas as pd
 from datetime import datetime
 import json
 
-API_URL = "http://localhost:8000"
+API_URL = "http://127.0.0.1:8000"  # "localhost" adds a ~2s IPv6 lookup delay on Windows
 
 def print_header(title):
     print("\n" + "="*70)
@@ -132,9 +132,9 @@ def main():
 
     # Test with different portfolio sizes
     test_portfolios = [
-        (["AZN", "SHEL"], "2-stock"),
-        (["AZN", "SHEL", "BP", "RIO"], "4-stock"),
-        (["AZN", "SHEL", "BP", "RIO", "GSK", "BA"], "6-stock"),
+        (["AZN.L", "SHEL.L"], "2-stock"),
+        (["AZN.L", "SHEL.L", "BP.L", "RIO.L"], "4-stock"),
+        (["AZN.L", "SHEL.L", "BP.L", "RIO.L", "GSK.L", "BA.L"], "6-stock"),
     ]
 
     all_analyses = ["expected_return", "historical_var", "parametric_var",
@@ -168,6 +168,7 @@ def main():
     avg_response = np.mean(response_times) if response_times else 0
 
     print(f"\nAverage API Response Time:    {avg_response:.2f} seconds")
+    print(f"Slowest API Response Time:    {max(response_times, default=0):.2f} seconds")
     print(f"Total Monte Carlo Runs:       {total_simulations:,}")
     print(f"Historical Data Points:       {total_data_points:,}")
 
@@ -178,7 +179,7 @@ def main():
 
     # Run comprehensive analysis on a diversified UK portfolio
     # These are REAL UK stocks from the London Stock Exchange
-    sample_symbols = ["AZN", "SHEL", "HSBA.L", "RIO"]
+    sample_symbols = ["AZN.L", "SHEL.L", "HSBA.L", "RIO.L"]
     sample_weights = [0.30, 0.25, 0.25, 0.20]
     portfolio_value = 100000  # GBP 100k portfolio
 
@@ -186,10 +187,10 @@ def main():
     print(f"  " + "-"*50)
     print(f"  Portfolio Composition:")
     stock_names = {
-        "AZN": "AstraZeneca (Healthcare)",
-        "SHEL": "Shell (Energy)",
+        "AZN.L": "AstraZeneca (Healthcare)",
+        "SHEL.L": "Shell (Energy)",
         "HSBA.L": "HSBC Holdings (Banking)",
-        "RIO": "Rio Tinto (Mining)"
+        "RIO.L": "Rio Tinto (Mining)"
     }
     for sym, weight in zip(sample_symbols, sample_weights):
         name = stock_names.get(sym, sym)
@@ -259,15 +260,15 @@ def main():
     print_header("4. ADDITIONAL UK PORTFOLIO ANALYSIS")
 
     # Second portfolio - different sector mix
-    alt_symbols = ["GSK", "BP", "ULVR.L", "BARC.L", "NG.L"]
+    alt_symbols = ["GSK.L", "BP.L", "ULVR.L", "BARC.L", "NG.L"]
     alt_weights = [0.25, 0.20, 0.20, 0.20, 0.15]
     alt_portfolio_value = 50000
 
     print(f"\n  SECOND UK PORTFOLIO (Diversified)")
     print(f"  " + "-"*50)
     alt_names = {
-        "GSK": "GlaxoSmithKline (Pharma)",
-        "BP": "BP plc (Energy)",
+        "GSK.L": "GlaxoSmithKline (Pharma)",
+        "BP.L": "BP plc (Energy)",
         "ULVR.L": "Unilever (Consumer)",
         "BARC.L": "Barclays (Banking)",
         "NG.L": "National Grid (Utilities)"
@@ -349,7 +350,7 @@ def main():
         # Compare historical vs parametric vs monte carlo
         hist_var95 = result['historical_var']['var_95']['loss']
         param_var95 = result['parametric_var']['var_95']['loss']
-        mc_5th = abs(portfolio_value - result['monte_carlo']['percentiles']['5th'])
+        mc_5th = -result['monte_carlo']['percentiles']['5th']  # percentiles are profits, so the loss is the negative
 
         print(f"\n  VaR MODEL COMPARISON (GBP {portfolio_value:,} UK Portfolio)")
         print(f"  " + "-"*50)
@@ -388,11 +389,11 @@ def main():
   Monte Carlo Simulations:      {total_simulations:,}+
   Historical Data Points:       {total_data_points:,}+
   Avg API Response Time:        {avg_response:.2f}s
-  Analysis Success Rate:        {successful_analyses}/{len(test_portfolios)} (100%)
+  Analysis Success Rate:        {successful_analyses}/{len(test_portfolios)} ({successful_analyses / len(test_portfolios):.0%})
 
   UK PORTFOLIO RESULTS (GBP {portfolio_value:,}):
   ===============================================
-  Stocks: AZN, SHEL, HSBA.L, RIO (Real FTSE 100 equities)
+  Stocks: AZN.L, SHEL.L, HSBA.L, RIO.L (Real FTSE 100 equities)
 
   Expected Annual Return:       {result['expected_return']['annual']['mean_return']*100:.2f}%
   Expected Annual Profit:       GBP {result['expected_return']['annual']['expected_profit']:,.0f}

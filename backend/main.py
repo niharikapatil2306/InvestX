@@ -1,15 +1,30 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from contextlib import asynccontextmanager
+import logging
+import threading
 import pandas as pd
 import numpy as np
-import yfinance as yf
 from scipy import stats
 from pathlib import Path
-from functools import lru_cache
-from datetime import datetime, timedelta
 
-app = FastAPI(title="InvestX API", version="2.0.0")
+import pipeline
+
+log = logging.getLogger('api')
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Refresh market data in the background if the last pipeline run is over a day old"""
+    pipeline.setup_logging()
+    if pipeline.is_stale():
+        log.info("Market data is stale, starting pipeline run in background")
+        threading.Thread(target=pipeline.run, daemon=True).start()
+    yield
+
+
+app = FastAPI(title="InvestX API", version="2.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -42,23 +57,21 @@ def load_stocks():
 
 STOCKS = load_stocks()
 
-# Cache for historical data (expires after 1 hour conceptually, but lru_cache doesn't have TTL)
-@lru_cache(maxsize=100)
-def fetch_historical_data(symbol: str, period: str = "1y") -> dict:
-    """Fetch historical data from yfinance"""
-    try:
-        ticker = yf.Ticker(symbol)
-        hist = ticker.history(period=period)
-        if hist.empty:
-            return None
-        return {
-            'dates': hist.index.strftime('%Y-%m-%d').tolist(),
-            'prices': hist['Close'].tolist(),
-            'volumes': hist['Volume'].tolist() if 'Volume' in hist else []
-        }
-    except Exception as e:
-        print(f"Error fetching {symbol}: {e}")
+def fetch_historical_data(symbol: str) -> dict:
+    """Read validated prices from the pipeline's database, ingesting on demand if never fetched"""
+    hist = pipeline.read_prices(symbol)
+    if hist.empty and symbol not in pipeline.ticker_statuses():
+        conn = pipeline.connect()
+        pipeline.ingest_symbol(conn, symbol)
+        conn.close()
+        hist = pipeline.read_prices(symbol)
+    if hist.empty:
         return None
+    return {
+        'dates': hist['date'].tolist(),
+        'prices': hist['close'].tolist(),
+        'volumes': hist['volume'].tolist()
+    }
 
 
 def calculate_returns(prices: list) -> np.ndarray:
@@ -68,7 +81,7 @@ def calculate_returns(prices: list) -> np.ndarray:
     return returns
 
 
-def calculate_portfolio_returns(symbols: list, weights: list, period: str = "1y") -> dict:
+def calculate_portfolio_returns(symbols: list, weights: list) -> dict:
     """
     Calculate portfolio returns from individual stock returns.
     R_t = sum(w_i * r_{t,i})
@@ -80,7 +93,7 @@ def calculate_portfolio_returns(symbols: list, weights: list, period: str = "1y"
 
     # Fetch data and track which symbols succeeded
     for i, symbol in enumerate(symbols):
-        data = fetch_historical_data(symbol, period)
+        data = fetch_historical_data(symbol)
         if data is None:
             print(f"Skipping {symbol} - no data available")
             continue
@@ -152,8 +165,15 @@ def root():
 
 @app.get("/api/stocks")
 def get_stocks(cap: str = None, sector: str = None):
-    """Get all stocks with optional filtering"""
-    result = STOCKS
+    """Get all stocks with optional filtering, including each ticker's data quality status"""
+    statuses = pipeline.ticker_statuses()
+    result = [
+        {**s,
+         'data_status': statuses.get(s['symbol'], {}).get('status', 'pending'),
+         'data_message': statuses.get(s['symbol'], {}).get('message'),
+         'latest_price_gbp': statuses.get(s['symbol'], {}).get('latest_price_gbp')}
+        for s in STOCKS
+    ]
     if cap:
         result = [s for s in result if s['cap_category'] == cap]
     if sector:
@@ -168,6 +188,17 @@ def get_stock(symbol: str):
         if stock['symbol'].upper() == symbol.upper():
             return stock
     raise HTTPException(status_code=404, detail="Stock not found")
+
+
+@app.get("/api/pipeline/status")
+def get_pipeline_status():
+    """Last pipeline run and any tickers that failed validation"""
+    statuses = pipeline.ticker_statuses()
+    return {
+        'last_run': pipeline.last_run(),
+        'lookback_days': pipeline.LOOKBACK_DAYS,
+        'failed_tickers': {s: v['message'] for s, v in statuses.items() if v['status'] == 'failed'}
+    }
 
 
 @app.post("/api/analysis/run")
@@ -197,7 +228,7 @@ def run_analysis(request: AnalysisRequest):
     portfolio_value = request.portfolio_value
 
     # Fetch and calculate portfolio returns
-    portfolio_data = calculate_portfolio_returns(symbols, weights, "1y")
+    portfolio_data = calculate_portfolio_returns(symbols, weights)
 
     if portfolio_data is None:
         raise HTTPException(status_code=400, detail="Could not fetch historical data for selected stocks. Some stocks may be delisted or have no recent data.")
@@ -211,7 +242,7 @@ def run_analysis(request: AnalysisRequest):
 
     # Build warning message if some stocks were skipped
     skipped = [s for s in symbols if s not in valid_symbols]
-    warning = f"Note: {', '.join(skipped)} had no data and were excluded." if skipped else None
+    warning = f"Note: {', '.join(skipped)} failed data validation and were excluded." if skipped else None
 
     results = {
         'symbols': valid_symbols,
@@ -353,30 +384,17 @@ def run_analysis(request: AnalysisRequest):
                 cov_matrix = np.cov(individual_returns)
                 mean_returns = np.mean(individual_returns, axis=1)
 
-                # Simulate multivariate normal returns
-                simulated_portfolio_returns = []
-                for _ in range(n_simulations):
-                    total_return = 0
-                    for day in range(n_days):
-                        daily_sim = np.random.multivariate_normal(mean_returns, cov_matrix)
-                        portfolio_daily = np.dot(valid_weights, daily_sim)
-                        total_return = (1 + total_return) * (1 + portfolio_daily) - 1
-                    simulated_portfolio_returns.append(total_return)
+                # Simulate correlated stock returns for every simulation and day in one call
+                daily_sims = np.random.multivariate_normal(mean_returns, cov_matrix, size=(n_simulations, n_days))
+                portfolio_daily = daily_sims @ np.array(valid_weights)
+                simulated_portfolio_returns = np.prod(1 + portfolio_daily, axis=1) - 1
             else:
                 # Fallback to univariate
-                simulated_portfolio_returns = []
-                for _ in range(n_simulations):
-                    daily_sims = np.random.normal(mu_daily, sigma_daily, n_days)
-                    week_return = np.prod(1 + daily_sims) - 1
-                    simulated_portfolio_returns.append(week_return)
+                daily_sims = np.random.normal(mu_daily, sigma_daily, (n_simulations, n_days))
+                simulated_portfolio_returns = np.prod(1 + daily_sims, axis=1) - 1
         else:
-            simulated_portfolio_returns = []
-            for _ in range(n_simulations):
-                daily_sims = np.random.normal(mu_daily, sigma_daily, n_days)
-                week_return = np.prod(1 + daily_sims) - 1
-                simulated_portfolio_returns.append(week_return)
-
-        simulated_portfolio_returns = np.array(simulated_portfolio_returns)
+            daily_sims = np.random.normal(mu_daily, sigma_daily, (n_simulations, n_days))
+            simulated_portfolio_returns = np.prod(1 + daily_sims, axis=1) - 1
         simulated_profits = simulated_portfolio_returns * portfolio_value
 
         # Calculate percentiles

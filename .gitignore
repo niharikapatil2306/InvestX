@@ -50,3 +50,7 @@ target/
 *.dll
 *.so
 *.dylib
+
+# Pipeline output
+data/
+logs/
