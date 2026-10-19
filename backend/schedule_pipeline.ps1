@@ -10,7 +10,9 @@ $python = (Get-Command python).Source
 
 $action = New-ScheduledTaskAction -Execute $python -Argument "pipeline.py" -WorkingDirectory $backend
 $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday, Tuesday, Wednesday, Thursday, Friday -At 18:00
-$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 1)
+# Battery flags matter on laptops: by default Windows will not start the task on battery power
+$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
+    -ExecutionTimeLimit (New-TimeSpan -Hours 1)
 
 Register-ScheduledTask -TaskName "InvestX Pipeline" -Action $action -Trigger $trigger -Settings $settings `
     -Description "Fetches, validates and stores daily prices for InvestX" -Force
